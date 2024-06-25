@@ -1,5 +1,5 @@
 import unittest
-from ListNode import ListNode
+from models.ListNode import ListNode
 import LinkedListCycle
 
 class TestLinkedListCycle(unittest.TestCase):
@@ -17,6 +17,3 @@ class TestLinkedListCycle(unittest.TestCase):
         head = ListNode(1, None)
         is_cycle = LinkedListCycle.hasCycle(head)
         self.assertFalse(is_cycle)
-
-if __name__=="main":
-    unittest.main() 
