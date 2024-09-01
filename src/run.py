@@ -1,4 +1,4 @@
 import unittest
-from LinkedListCycle import LinkedListCycle
+from src.LinkedListCycle import LinkedListCycle
 if __name__=="main":
-    unittest.main() 
+    unittest.main()

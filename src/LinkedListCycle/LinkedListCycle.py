@@ -1,8 +1,9 @@
 from typing import Optional
-from models.ListNode import ListNode 
+from src.models.ListNode import ListNode
 
-class LinkedListCycle():
-    def hasCycle(self, head: Optional[ListNode]) -> bool:
+class LinkedListCycle:
+    @staticmethod
+    def hasCycle(head: Optional[ListNode]) -> bool:
         node_tracker = dict()
 
         while head:
