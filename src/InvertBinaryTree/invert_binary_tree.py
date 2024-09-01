@@ -1,8 +1,8 @@
 from typing import Optional
-from models.TreeNode import TreeNode 
+from src.models.TreeNode import TreeNode
 
-class InvertBinaryTree():
-    def invertTree(self, root: Optional[TreeNode]) -> bool:
+class InvertBinaryTree:
+    def invertTree(self, root: Optional[TreeNode]) -> Optional:
         if not root:
            return root
 

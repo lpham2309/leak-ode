@@ -1,6 +1,6 @@
 import unittest
 from src.models.ListNode import ListNode
-from LinkedListCycle import LinkedListCycle
+from src.LinkedListCycle.linked_list_cycle import LinkedListCycle
 
 class TestLinkedListCycle(unittest.TestCase):
     

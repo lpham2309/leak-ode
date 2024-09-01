@@ -1,8 +1,9 @@
 from typing import Optional
-from models.ListNode import ListNode 
+from src.models.ListNode import ListNode
 
-class RevertLinkedList():
-    def reverseList(self, head: Optional[ListNode]) -> Optional[ListNode]:
+class RevertLinkedList:
+    @staticmethod
+    def reverseList(head: Optional[ListNode]) -> Optional[ListNode]:
         curr = head
         prev = None
 
