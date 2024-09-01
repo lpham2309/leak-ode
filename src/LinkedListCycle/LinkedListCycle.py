@@ -1,5 +1,5 @@
 from typing import Optional
-from src.models.ListNode import ListNode 
+from models.ListNode import ListNode 
 
 class LinkedListCycle():
     def hasCycle(self, head: Optional[ListNode]) -> bool:
