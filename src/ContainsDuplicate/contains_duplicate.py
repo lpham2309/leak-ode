@@ -1,3 +1,8 @@
+"""
+217. Contains Duplicate
+Problem Link: https://leetcode.com/problems/contains-duplicate/description/
+"""
+
 from typing import List
 
 def contains_duplicate(nums: List[int]) -> bool:

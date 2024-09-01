@@ -1,3 +1,8 @@
+"""
+242. Valid Anagram
+Problem Link: https://leetcode.com/problems/valid-anagram/description/
+"""
+
 def isAnagram(s: str, t:str) -> bool:
     result = {}
 
