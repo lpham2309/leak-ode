@@ -1,5 +1,5 @@
 """
-49. Group Anagrams
+49. GroupAnagrams
 Problem Link: https://leetcode.com/problems/group-anagrams/description/
 """
 
